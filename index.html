@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Floriculture India</title>
+  {% load static %}
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          
+          <h1><a href="index.html">Floriculture <span class="logo_colour">India</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="http://localhost/new_forumv2/index.php" target="_blank">Discussion Forum</a></li>
+          <li><a href="http://127.0.0.1/Signup_v2/login.php">Login / Sign-Up</a></li><!-- Here change the location as per your directory -->
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+	  <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            
+            <h3>Latest News</h3>
+            <h4>India’s floriculture industry sees 20% annual growth in exports</h4>
+	    <br />
+            <script>
+	    var currentdate = new Date();
+	    var month = currentdate.getMonth();
+	    var day = currentdate.getDate();
+	    var year = currentdate.getFullYear();
+	    var fulldate = month + "/" + day + "/" + year;
+	    document.write(fulldate);
+	    document.write("<br>");
+            </script>
+	    <br />
+	    <p>Read more about floriculture industry of India and it's success stories.<br /><a href="https://www.hindustantimes.com/pune-news/india-s-floriculture-industry-sees-20-annual-growth-in-exports/story-WawSHgkYTinoGyi5mxu36K.html">Read more</a></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="https://dfr.icar.gov.in/">link 1</a></li>
+              <li><a href="https://www.india.gov.in/topics/agriculture/floriculture">link 2</a></li>
+              <li><a href="https://www.imarcgroup.com/flower-floriculture-industry-india">link 3</a></li>
+              <li><a href="https://vikaspedia.in/agriculture/farm-based-enterprises/floriculture">link 4</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Search</h3>
+            <form action="look" id="search_form">
+              <p>
+                <input type="text" name="search_field"/>
+                <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="https://www.searchpng.com/wp-content/uploads/2019/03/Search-Icon-PNG.png" height = 25px width = 25px alt="Search" title="Search" />
+              </p>
+            </form>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        
+        <h1 style="font-size: 35px">Welcome to the Floriculture India website!</h1>
+        <p style="font-size: 18px"><i>During the past few years the government of India has taken upon a new goal, Swacchh
+           Bharat. However keeping the country clean shouldn’t be the only goal. Making the country
+           beautiful should add as an incentive to that goal. Flowers provide us an easy and pleasing
+           solution to making a clean space beautiful.
+           There are people who think in similar ways and might be looking for a place to discuss their
+           ideas. Online social media platforms are however too general and distracting to discuss
+           this. We bring to you this forum that stays specific to the topic and provides services
+           beneficial to its users.</i></p>
+        
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="http://localhost/new_forumv2/index.php" target="_blank">Discussion Forum</a> | <a href="http://127.0.0.1/Signup_v2/login.php">Login / Sign-Up</a> | <a href="contact.html">Contact Us</a></p>
+
+    </div>
+  </div>
+</body>
+</html>
